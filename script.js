@@ -33,6 +33,7 @@ stp.addEventListener('click',function() {
 reset.addEventListener('click',function(){
     h=m=s=ms=0;
     updatedi()
+    clearInterval(strtimer)
     sart.classList.remove("start-active");
     stp.classList.remove("stop-active");
 })
